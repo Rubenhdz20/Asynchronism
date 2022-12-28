@@ -1,4 +1,4 @@
-const XMLHttpRequest = require('xmlhttprequest');
+const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 const API = 'https://api.escueljs.co/api/v1';
 
 function fetchData(urlAPI, callback) {
@@ -10,9 +10,10 @@ function fetchData(urlAPI, callback) {
             if(xhttp.status === 200) {
                 callback(null, JSON.parse(xhttp.responseText));
             }
-        } else {
-            const error = new Error('Error' + urlAPI);
-            return callback(error, null);
+            else {
+                const error = new Error('Error' + urlAPI);
+                return callback(error, null);
+            }
         }
     }
 
