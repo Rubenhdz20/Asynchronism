@@ -31,6 +31,8 @@ order('Burger', makingOrder);
 
 // Los callbacks aseguran que una función no se va a ejecutar antes de que se complete una tarea, sino que se ejecutará justo después de que la tarea se haya completado. Nos ayuda a desarrollar código JavaScript asíncrono y nos mantiene a salvo de problemas y errores.
 
+// Un Callback es una una función que se pasa como argumento de otra función y que luego será invocada. Aseguran de que un determinado codigo no que ejecuta hasta que otro codigo haya terminado de ejecutarse
+
 // Tienes la función execCallback que recibirá un callback es decir una función como parámetro, tu reto es ejecutar esa función con un tiempo de demora de 2 segundos.
 
 // Para hacer que la función se demore 2 segundos debes usar la función setTimeout, pero para ejecutarla debes llamarla mediante el namescpace window para poder monitorear su uso en la ejecución de pruebas, ejemplo:
