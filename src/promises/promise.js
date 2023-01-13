@@ -1,7 +1,7 @@
 // 🤞🏼 𝗖𝗹𝗮𝘀𝗲 #𝟭𝟬: 𝗤𝘂é 𝘀𝗼𝗻 𝗹𝗮𝘀 𝗽𝗿𝗼𝗺𝗲𝘀𝗮𝘀 𝟭𝟬/𝟮𝟭 🤞🏼
-// .
+
 // 🪃 Un callback devuelve una función en los parámetros, cuando llamamos varias veces un callback, estaremos colocando muchas lineas de código y sería engorroso, por eso nacen las promesas, éstas optimizan y permiten leer mejor el código con pocas lineas.
-// .
+
 // 🫱🏼‍🫲🏾 Las promesas son asíncronas, por lo que el código continuará su ejecución normalmente y luego dirá si la promesa se resolvió o se rechazó. Por lo que varias promesas pueden llegar a entrar en ejecución al mismo tiempo.
 // Basicamente eso es lo que hace una promesa, representa un valor que no está disponible en el momento y hace que javascript espere a que esté disponible, pero mientras llegan esos datos, javascript puede ir haciendo otras tareas.
 // Las promesas pueden suceder:
@@ -12,8 +12,8 @@
 
 // Utilizamos la palabra reservada NEW seguida de la palabra Promise que es el constructor de la promesa. Este constructor recibe un único parámetro que es una función, la cuál a su vez, recibe otros dos parámetros: resolve y reject.
 
-// El parámetro resolve se utiliza para cuando la promesa devuelve el valor correctamente.
-// El parámetro reject, se usa en el que caso de que no funcione.
+// El parámetro RESOLVE se utiliza para cuando la promesa devuelve el valor correctamente.
+// El parámetro REJECT, se usa en el que caso de que no funcione.
 
 // 📝 Ejemplo:
 
@@ -66,3 +66,11 @@ console.log(error);
 // Para ver el resultado por la consola de VSC, seleccionar el código y dar en Run Code, se puede ir probando cambiando la variable inicial cows
 
 // 🏹 Si hay dudas de las funciones arrow en el enlace hay ejemplos: aquí
+
+function delay(time, message) {
+    return new Promise(function (resolve, reject) {
+        window.setTimeout(() => {
+            resolve(message);
+        }, time);
+    })
+}

@@ -10,5 +10,8 @@
     "javascript"
   ],
   "author": "Ruben Hernandez rubhernandez42@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
