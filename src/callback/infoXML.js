@@ -15,16 +15,21 @@
 // xmlhttp.onreadystatechange → Un eventHandler que es llamado cuando la propiedad readyState cambia.
 // xmlhttp.status → Retorna el estado de la respuesta de la petición. (200,400,500)
 // xmlhttp.send() → Envía la petición.
-// .
+
 // 📬 Características del protocolo http:
-// .
+
 // Verbos: Los verbos indican acciones que están asociadas a peticiones y recursos, es decir, sirven para la manipulación de recursos cliente/servidor. Los Verbos http son:
 
 // GET → Solicita un recurso.
+
 // HEAD → Solicita un recurso pero sin retornar información, la estructura de esta petición es igual que get tanto en su headers como estatus. Es útil cuando vamos a utilizar API, para comprobar si lo que vamos a enviar esta correcto y puede ser procesado.
+
 // POST → Sirve para la creación de recursos en el servidor.
+
 // PUT → Actualiza por completo un recurso, reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+
 // PATCH → Actualiza parcialmente un recurso.
+
 // DELETE → Elimina un recurso.
 
 // 📭 Los códigos de estados del servidor:
