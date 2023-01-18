@@ -15,8 +15,8 @@ function postData(urlApi, data) {
 }
 
 const data = {
-    "title": "New Product",
-    "price": 10,
+    "title": "Airpods pro",
+    "price": 550,
     "description": "A description",
     "categoryId": 1,
     "images": [

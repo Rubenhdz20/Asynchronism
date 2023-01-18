@@ -1,13 +1,14 @@
 
 // 🔥 𝗖𝗹𝗮𝘀𝗲 #𝟵: 𝗖𝗮𝗹𝗹𝗯𝗮𝗰𝗸 𝗵𝗲𝗹𝗹 𝟵/𝟮𝟭 🔥
-// .
+
 // CallBacks Hell: Consiste en múltiples Callbacks anidados que provocan que el código se vuelva difícil de leer y ‘debuggear’ y por eso se debe evitar.
-// .
+
 // ✒️ Siguiendo con el proyecto:
-// .
 
 // Ir a la terminal, para compilar challenge.js se coloca: node src/callback/challenge.js
+
 // Se obtiene las 3 salidas: el id, el título que corresponde al id y el nombre del tipo de categoría:
+
 //console.log(data1[0]);
 
 // { 
