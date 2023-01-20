@@ -16,8 +16,8 @@ function postData(urlApi, data) {
 
 const data = {
     "title": "Airpods pro",
-    "price": 550,
-    "description": "A description",
+    "price": 250,
+    "description": "New generation of sound",
     "categoryId": 1,
     "images": [
         "https://placeimg.com/640/480/any"

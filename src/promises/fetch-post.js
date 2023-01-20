@@ -62,7 +62,7 @@ postData(`${API}/products`, data)
 
 // Para ver el objeto creado en el navegador, copiamos la dirección: https://api.escuelajs.co/api/v1/products/ y colocamos al final el número arrojado por la id del OUTPUT, si el id es 271, sería: https://api.escuelajs.co/api/v1/products/271
 
-// 🎨 Ejemplo para actualizar un objeto con PUT:
+// 🎨 ACTUALIZAR OBJETO CON PUT:
 
 //Con PUT para actualizar un objeto
 function putData(urlApi, dataUpdate) {
@@ -87,7 +87,9 @@ putData(`${API}/products/271`, dataUpdate) //se debe colocar el id del objeto qu
     .then(response => response.json())
     .then(dataUpdate => console.log(dataUpdate));
 
-// 🗑️ Ejemplo para eliminar un objeto con DELETE:
+
+    
+// 🗑️ ELIMINAR UN OBJETO CON DELETE:
 
 //Eliminar un objeto indicando el id con DELETE
 function deleteData(urlApi) { //no es necesario pasar la data
