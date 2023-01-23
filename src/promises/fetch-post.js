@@ -1,7 +1,7 @@
 // 𝗖𝗹𝗮𝘀𝗲 #𝟭𝟮: 𝗙𝗲𝘁𝗰𝗵 𝗣𝗢𝗦𝗧 𝟭𝟮/𝟮𝟭 📂
 
 // Repasando algunas de las característica del protocolo http:
-
+ 
 // Los verbos indican acciones, estás acciones están asociadas a peticiones y recursos. En línea general sirve para la manipulación de recursos cliente/servidor. Los códigos de estados, los códigos son valores números que tienen un valor semántico.
 
 // Algunos Verbos http son:
