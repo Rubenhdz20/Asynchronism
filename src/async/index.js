@@ -15,3 +15,7 @@ const anotherFunction = async () => {
 console.log('Before the async');
 anotherFunction();
 console.log('After the async');
+
+// Async, la usamos siempre al inicio de la función, y lo que hace es definir que esa función será asincrona
+
+// ⭐ Await, la usamos básicamente para indicar por cuales líneas de código se deben esperar a que terminen de ejecutarse antes de seguir ejecutando la función.

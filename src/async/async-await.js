@@ -18,7 +18,6 @@
 // Ir a VSC, crear dentro de la carpeta src una carpeta llamada async.
 // En la ruta src/async crear el archivo index.js
 // Dentro del archivo index.js, se crea la promesa y luego se valida si la promesa se resolverá, también se hace el llamado de la misma y luego se busca mostrar como se desenvuelve con await. En el ejemplo se usa el if ternario.
-// .
 
 // 🚥 ¿Qué es un operador if ternario?
 // .
